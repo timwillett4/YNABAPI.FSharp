@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "YNABApi.FSharp", "YNABApi.FSharp\YNABApi.FSharp.fsproj", "{F069CA6C-568E-434D-8CF5-BE9AE7FC1E60}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "YNABApi.FSharp", "YNABApi.FSharp\YNABApi.FSharp.fsproj", "{F069CA6C-568E-434D-8CF5-BE9AE7FC1E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", "{DE998563-8BB9-4C9D-897E-B69CAE6CFDC0}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.Core.Extensions", "..\FSharp.Core.Extensions\FSharp.Core.Extensions.fsproj", "{30AD3372-3D91-4527-9967-FF985405BA96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{F069CA6C-568E-434D-8CF5-BE9AE7FC1E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F069CA6C-568E-434D-8CF5-BE9AE7FC1E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F069CA6C-568E-434D-8CF5-BE9AE7FC1E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AD3372-3D91-4527-9967-FF985405BA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AD3372-3D91-4527-9967-FF985405BA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AD3372-3D91-4527-9967-FF985405BA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AD3372-3D91-4527-9967-FF985405BA96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30AD3372-3D91-4527-9967-FF985405BA96} = {DE998563-8BB9-4C9D-897E-B69CAE6CFDC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B03827E-98C2-4BCB-8A41-5307B3405506}
