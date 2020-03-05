@@ -13,12 +13,16 @@ let deserialize<'a> (JsonData json) =
         | ex -> Error ex
 
 type ErrorDetail = {
-    ID : Guid 
+    [<JsonField("id")>]
+    ID : string 
+    [<JsonField("name")>]
     Name : string
+    [<JsonField("detail")>]
     Detail : string
 }
 
 type ErrorResponse = {
+    [<JsonField("error")>]
     Error : ErrorDetail 
 }
 

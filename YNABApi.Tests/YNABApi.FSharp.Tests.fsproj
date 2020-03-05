@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="DataRequestTests.fs" />
+    <EmbeddedResource Include="sample-data\error_not_found.json" />
     <EmbeddedResource Include="sample-data\budgets.json" />
     <EmbeddedResource Include="sample-data\categories.json" />
     <EmbeddedResource Include="sample-data\transactions.json" />
